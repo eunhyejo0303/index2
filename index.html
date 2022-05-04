@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형레이아웃</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link href="css/main.css"rel="stylesheet"/>
+</head>
+<body id="top">
+  <header>
+    <div>
+      <h1>
+        <a href="#">
+            <img src="images/KakaoTalk_20220502_190331276.png" alt="팬스타로고"/>
+        </a>
+      </h1>
+
+      <nav class="pc_menu">
+          <ul>
+              <li><a href="#">팬스타소개</a></li>
+              <li><a href="#">사업분야</a></li>
+              <li><a href="#">고객지원</a></li>
+              <li><a href="#">미디어센터</a></li>
+              <li><a href="#">인재채용</a></li>
+          </ul>
+
+      </nav><!-- .pc_menu end -->
+
+      <i class="mobile xi-bars"><span>메뉴보기</span></i> <!-- span 태그가 들어가야 함! 인라인요소 안에 블럭요소가 들어갈 수 없음 -->
+      <nav class="mobile_menu">
+          <ul>
+              <li><a href="#">팬스타소개</a></li>
+              <li><a href="#">사업분야</a></li>
+              <li><a href="#">고객지원</a></li>
+              <li><a href="#">미디어센터</a></li>
+              <li><a href="#">인재채용</a></li>
+          </ul>
+      </nav><!-- .mobile_menu end -->
+    </div>
+  </header>
+
+  <section class="main_visual">
+    <img src="images/spring06.jpg" alt="도시">
+    <div>
+        <h2>OVER THE NETWORK</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ipsum, ea autem perferendis
+            <br>exercitationem illo libero at harum, fuga delectus aliquid error ducimus omnis deserunt eius soluta consectetur voluptatem numquam!<br/></p>
+            <!-- P태그 안에 글자가 화면에서 줄바꿈 되게 하기-> 원하는 부분에 br 태그 입력 -->
+    </div>
+  </section><!-- .main_visual end -->
+
+  <section class="cont01">
+    <div class="title">
+      <h3>section title</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        <br>Facere debitis similique facilis aliquam illum, blanditiis vitae exercitationem quis<br/>
+      </p>
+    </div><!-- .title end -->
+    <div class="list">
+      <div>
+        <img src="images/spring01.jpg" alt="봄꽃1"/>
+        <a href="#">
+          <h4>고속화물페리</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam modi culpa aspernatur, maxime corrupti alias ab quae totam numquam, vitae tempora maiores ratione libero eos dolore minima, eaque laudantium id!</p>
+        </a>
+      </div>
+
+      <div>
+        <img src="images/spring03.jpg" alt="봄꽃2"/>
+        <a href="#">
+          <h4>크루즈 여객</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam modi culpa aspernatur, maxime corrupti alias ab quae totam numquam, vitae tempora maiores ratione libero eos dolore minima, eaque laudantium id!</p>
+        </a>
+      </div>
+
+      <div>
+        <img src="images/spring05.jpg" alt="봄꽃3"/>
+        <a href="#">
+          <h4>국제특송</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam modi culpa aspernatur, maxime corrupti alias ab quae totam numquam, vitae tempora maiores ratione libero eos dolore minima, eaque laudantium id!</p>
+        </a>
+      </div>
+
+      <div>
+        <img src="images/spring04.jpg" alt="봄꽃4"/>
+        <a href="#">
+          <h4>자동차정비기기</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam modi culpa aspernatur, maxime corrupti alias ab quae totam numquam, vitae tempora maiores ratione libero eos dolore minima, eaque laudantium id!</p>
+        </a>
+      </div>
+    </div><!-- .list end -->
+  </section><!-- .cont01 end -->
+  <footer id="bottom">
+    ⓒ 2022 조은혜. All right reserved.
+  </footer>
+
+  <!-- 컨텐츠 영역 밖에 있는 요소 -->
+  <aside>
+    <ul>
+      <li><a href="#top">위로</a></li>
+      <li><a href="#bottom">밑으로</a></li>
+    </ul>
+  </aside>
+</body>
+</html>
